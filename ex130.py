@@ -16,7 +16,7 @@ btc = requests.get("https://api.bithumb.com/public/ticker/").json()['data']
 if (시가+변동폭) > 최고가:
     print("상승장")
 else:
-    print("하락장")
+    print("하락장") 
 
 
 # In[ ]:
